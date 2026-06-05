@@ -30,7 +30,7 @@
       background: rgba(255,255,255,0.96); backdrop-filter: blur(20px);
       border-bottom: 1px solid var(--border); box-shadow: 0 1px 12px rgba(0,0,0,0.06);
     }
-    .nav-logo img { height: 52px; width: auto; display: block; }
+    .nav-logo img { height: 72px; width: auto; display: block; }
     .nav-cta {
       background: var(--green); color: #fff; padding: 10px 22px; border-radius: 8px;
       font-weight: 700; font-size: 0.85rem; text-decoration: none; transition: all .2s;
@@ -314,12 +314,12 @@
     <h2 class="s-title fu">Data kamu, <span style="color:var(--blue)">milik kamu.</span><br/>Titik.</h2>
     <p class="s-sub fu">JOMP dibangun dengan prinsip sederhana: asisten yang tidak ganjen, aman, amanah, dan terpercaya.</p>
     <div class="trust-grid">
-      <div class="trust-card fu"><span class="trust-icon">🔒</span><h3>Data Tersimpan di Google-mu</h3><p>Semua catatan, task, dan data tersimpan di Google Sheets milikmu sendiri. Bukan di server JOMP.</p><span class="trust-tag">Zero Server Storage</span></div>
+      
       <div class="trust-card fu"><span class="trust-icon">🛡️</span><h3>Tidak Ada Akses Tanpa Izin</h3><p>JOMP hanya merespons pesan dari nomormu. Tidak ada orang lain yang bisa membaca percakapan atau datamu.</p><span class="trust-tag">Private by Design</span></div>
-      <div class="trust-card fu"><span class="trust-icon">🔐</span><h3>Enkripsi End-to-End via WhatsApp</h3><p>Semua komunikasi terlindungi enkripsi E2E WhatsApp. Tidak ada yang bisa intercept pesanmu.</p><span class="trust-tag">WhatsApp E2E Encryption</span></div>
-      <div class="trust-card fu"><span class="trust-icon">🗑️</span><h3>Hapus Kapanpun, Tidak Ada Jejak</h3><p>Mau berhenti? Hapus spreadsheet-mu — data hilang sepenuhnya. Tidak ada backup tersembunyi.</p><span class="trust-tag">Full Data Control</span></div>
+      <div class="trust-card fu"><span class="trust-icon">🔐</span><h3>Komunikasi Lewat Platform yang Kamu Percaya</h3><p>Pesan kamu berjalan lewat WhatsApp — platform yang sudah dipakai ratusan juta orang dan kamu sudah percayai. JOMP memproses pesanmu untuk menjalankan fitur, tidak menyimpannya di server kami.</p><span class="trust-tag">Powered by WhatsApp</span></div>
+      
       <div class="trust-card fu"><span class="trust-icon">🚫</span><h3>Tidak Ada Iklan, Tidak Ada Tracking</h3><p>JOMP tidak punya kepentingan komersial dari datamu. Tidak ada profiling, tidak ada data dijual.</p><span class="trust-tag">No Ads · No Tracking</span></div>
-      <div class="trust-card fu"><span class="trust-icon">📖</span><h3>Transparan Sepenuhnya</h3><p>Kamu tahu persis data apa yang disimpan dan di mana. Tidak ada black box. Bisa kamu audit sendiri.</p><span class="trust-tag">Full Transparency</span></div>
+      
     </div>
   </div>
 </section>
@@ -407,7 +407,7 @@
           <span class="s-icon">🎉</span>
           <h3>Pendaftaran Berhasil!</h3>
           <p>Data kamu sudah kami terima. Cek WA-mu — dalam 24 jam kamu dapat pesan konfirmasi beserta instruksi singkat dari JOMP AI.</p>
-          <p style="margin-top:16px; font-size:0.75rem; color:var(--sub2);">Pastikan nomor WA-mu aktif. Belum dapat WA dalam 24 jam? Hubungi admin: wa.me/62181283638439</p>
+          <p style="margin-top:16px; font-size:0.75rem; color:var(--sub2);">Pastikan nomor WA-mu aktif. Belum dapat WA dalam 24 jam? Hubungi admin: wa.me/6281283638439</p>
         </div>
       </div>
       <p style="text-align:center; font-size:0.75rem; color:var(--sub2); margin-top:20px;">🔒 Data diproses langsung oleh sistem JOMP AI dan hanya diakses oleh admin.</p>
@@ -444,7 +444,7 @@
       });
     } catch (err) {
       const msg = `Halo! Mau daftar JOMP AI Beta\n\nNama: ${nama}\nWA: ${wa}\nEmail: ${email}\nTimezone: ${tz}\nFitur: ${checked.join(', ')}\n${cerita ? `Situasi: ${cerita}` : ''}\n\nSiap di-setup!`;
-      window.open(`https://wa.me/62181283638439?text=${encodeURIComponent(msg)}`);
+      window.open(`https://wa.me/6281283638439?text=${encodeURIComponent(msg)}`);
     }
   }
 </script>
